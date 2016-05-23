@@ -28,7 +28,7 @@
 /**
  * Created by China-Boy-1985.
  *
- * gulp.task(name, fn) - 定义任务，第一个参数是任务名，第二个参数是任务内容。
+ *gulp.task(name, fn) - 定义任务，第一个参数是任务名，第二个参数是任务内容。
  *gulp.src(path) - 选择文件，传入参数是文件路径。
  *gulp.dest(path) - 输出文件
  *gulp.pipe() - 管道，你可以暂时将 pipe 理解为将操作加入执行队列
@@ -105,5 +105,5 @@ gulp.task('default',function(){
   });
 });
 ```
-配置完毕后切换到项目路径执行<code>gulp default</code>  
+配置完毕后切换到项目路径执行<code>gulp default</code>  具体压缩完成的文件路径视情况而定
 
